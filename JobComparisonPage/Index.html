@@ -2,7 +2,7 @@
 <html lang="en-US">
     <!-- head -->
     <head> 
-        <title> Programming Language Comparison </title>
+        <title> Job Comparison </title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -10,6 +10,7 @@
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="./style.css">
     </head>
 
     <!-- body -->
@@ -55,34 +56,45 @@
         <button type="button" class="btn btn-outline-dark" style="margin-left: 5px;"
                 onclick="window.open('../index.html', '_self')"> Go back home</button>
 
-        <h1>Programming Language Comparison</h1>
+        <h1>Job Comparison</h1>
         <br>
     
         <div>
             <div class="container">
-                <div style="display: flex; justify-content: center;">
-                <div class="dropdown" style="margin-right: 5px;">
-                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                        Select a programming language
-                    </button>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                      <li><a class="dropdown-item" href="#">Java Script</a></li>
-                      <li><a class="dropdown-item" href="#">Python</a></li>
-                      <li><a class="dropdown-item" href="#">PHP</a></li>
-                    </ul>
+                <div class="card" style="width: 500px;">
+                    <div class="card-body" style="display: flex; justify-content:space-between;">
+                        <h5 class="card-text">
+                          Different Jobs in the same company
+                        </h5>
+                      <a href="./selection.html" class="btn btn-primary">Select</a>
+                    </div>
                 </div>
-                <div class="dropdown" style="margin-right: 5px;">
-                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                        Select a programming language
-                    </button>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                      <li><a class="dropdown-item" href="#">Java Script</a></li>
-                      <li><a class="dropdown-item" href="#">Python</a></li>
-                      <li><a class="dropdown-item" href="#">PHP</a></li>
-                    </ul>
+                <br>
+                <div class="card" style="width: 500px;">
+                    <div class="card-body" style="display: flex; justify-content:space-between;">
+                        <h5 class="card-text">
+                          Same job in different companies
+                        </h5>
+                      <a href="./selection.html" class="btn btn-primary">Select</a>
+                    </div>
                 </div>
-                <button type="button" class="btn btn-primary"
-                        onclick="window.open('./ProgrammingLanguageComparisonDetail.html', '_self')">Compare</button>
+                <br>
+                <div class="card" style="width: 500px;">
+                    <div class="card-body" style="display: flex; justify-content:space-between;">
+                        <h5 class="card-text">
+                          By department
+                        </h5>
+                      <a href="./selection.html" class="btn btn-primary">Select</a>
+                    </div>
+                </div>
+                <br>
+                <div class="card" style="width: 500px;">
+                    <div class="card-body" style="display: flex; justify-content:space-between;">
+                        <h5 class="card-text">
+                          By programming language
+                        </h5>
+                      <a href="./selection.html" class="btn btn-primary">Select</a>
+                    </div>
                 </div>
             </div>
 
